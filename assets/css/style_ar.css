@@ -1146,6 +1146,7 @@ p {
 /*===========================
         03.ABOUT css 
 ===========================*/
+
 .about-title .welcome {
   font-size: 18px;
   font-weight: 400;
@@ -1153,6 +1154,7 @@ p {
   letter-spacing: 5px;
   color: #f14836;
   font-family: "Nunito", sans-serif;
+  text-align: center !important;
 }
 
 @media (max-width: 767px) {
@@ -1165,6 +1167,7 @@ p {
   padding-top: 10px;
   font-weight: 400;
   font-size: 32px;
+  text-align: center !important;
 }
 
 @media (max-width: 767px) {
@@ -1974,6 +1977,7 @@ p {
   font-weight: 700;
   color: #222;
   font-family: "Nunito", sans-serif;
+  text-align: center !important;
 }
 
 .our-services-tab .our-services-content .our-services-progress .progress-content {
