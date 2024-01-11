@@ -113,6 +113,11 @@ $(function() {
         });
     });
     
+    //===== Load More
+    $('#more').click(function () { 
+        $(".product").removeClass("d-none");
+        $('#more').hide();
+    });
     
     //===== Back to top
     
