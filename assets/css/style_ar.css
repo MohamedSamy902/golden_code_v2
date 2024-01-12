@@ -1339,19 +1339,43 @@ p {
   width: 100%;
 }
 
-.single-gallery .gallery-icon a {
+.single-gallery .gallery-icon .image-popup {
   background-color: #f14836;
   border-radius: 20px;
   width: 100px;
   height: 100px;
   position: absolute;
   top: 50%;
-  right: 50%;
+  right: 25%;
   -webkit-transform: translate(50%, -50%) scale(0);
   -moz-transform: translate(50%, -50%) scale(0);
   -ms-transform: translate(50%, -50%) scale(0);
   -o-transform: translate(50%, -50%) scale(0);
   transform: translate(50%, -50%) scale(0);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-gallery .gallery-icon .demo {
+  font-size: 32px;
+  background-color: #222;
+  border: 1px solid #f14836;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  right: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+  -moz-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  -o-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;

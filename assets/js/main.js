@@ -112,11 +112,14 @@ $(function() {
             event.preventDefault();
         });
     });
-    
-    //===== Load More
-    $('#more').click(function () { 
-        $(".product").removeClass("d-none");
-        $('#more').hide();
+
+
+    //===== Dark Mode 
+    $('.dark-btn').click(function () { 
+        $('body').toggleClass('dark-mode');
+        $('span, a').toggleClass('dark-mode-co');
+        $('b').toggleClass('orange');
+        // $('header-hero').css('backgrounImage', './assets/images/dark/dark.jpg');
     });
     
     //===== Back to top
