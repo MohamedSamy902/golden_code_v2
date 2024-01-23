@@ -149,18 +149,20 @@ $(function() {
     if($('.our-services-progress').length){
         $('.our-services-progress').appear(function(){
             Circles.create({
-                id: 'circles-1',
-                radius: 50,
-                value: 95,
-                maxValue: 100,
-                width: 3,
-                text: function(value){return value + '%';},
-                colors: ['#f0f0f0', '#f14836'],
-                duration: 1000,
-                wrpClass: 'circles-wrp',
-                textClass: 'circles-text',
-                styleWrapper: true,
-                styleText: true,
+              id: "circles-1",
+              radius: 50,
+              value: 95,
+              maxValue: 100,
+              width: 3,
+              text: function (value) {
+                return value + "%";
+              },
+              colors: ["#f0f0f0", "#c98015"],
+              duration: 1000,
+              wrpClass: "circles-wrp",
+              textClass: "circles-text",
+              styleWrapper: true,
+              styleText: true,
             });
         });
     }
@@ -174,7 +176,7 @@ $(function() {
                 maxValue: 100,
                 width: 3,
                 text: function(value){return value + '%';},
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#c98015'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
@@ -193,7 +195,7 @@ $(function() {
                 maxValue: 100,
                 width: 3,
                 text: function(value){return value + '%';},
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#c98015'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
@@ -212,7 +214,7 @@ $(function() {
                 maxValue: 100,
                 width: 3,
                 text: function(value){return value + '%';},
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#c98015'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
