@@ -3309,7 +3309,7 @@ p {
   color: #fff;
   width: 36px;
   height: 36px;
-  background: #3d60f4;
+  background: #c98015;
   display: block;
   border-radius: 30px;
   line-height: 36px;
@@ -3351,7 +3351,7 @@ p {
 }
 
 .team-item .info-text h3 a:hover {
-  color: #3d60f4;
+  color: #c98015;
 }
 
 .team-item .info-text p {
