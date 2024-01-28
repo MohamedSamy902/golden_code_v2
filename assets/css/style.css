@@ -1154,7 +1154,7 @@ footer .logogc {
 /*===========================
         03.ABOUT css 
 ===========================*/
-.about-title .welcome {
+.about-title .welcome, .welcome {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1293,6 +1293,10 @@ footer .logogc {
 }
 
 /*===== ABOUT 2 =====*/
+.about-content p {
+  text-align: center !important;
+}
+
 .about-content-2 .about-line {
   padding-top: 10px;
 }
@@ -2587,6 +2591,9 @@ footer .logogc {
   color: #222;
 }
 
+.footer-link ul {
+  line-height: 10px;
+}
 .footer-link ul li {
   margin-top: 25px;
 }
@@ -2602,7 +2609,7 @@ footer .logogc {
 }
 
 .footer-link ul li a:hover {
-  color: #222;
+  color: #c98015;
 }
 
 .footer-contact .text {
@@ -3397,4 +3404,143 @@ footer .logogc {
 .company-img img {
   width: 100%;
   height: 500px;
+}
+
+/* ===== Pricing CSS ===== */
+.ud-pricing {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.ud-single-pricing {
+  margin-bottom: 40px;
+  background: #fff;
+  border: 2px solid #d4deff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 45px 30px;
+  position: relative;
+}
+
+.ud-single-pricing.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c98015), to(#e09729));
+  background: linear-gradient(180deg, #c98015 0%, #e09729 100%);
+  border: none;
+  padding: 55px 30px;
+}
+
+.ud-single-pricing.active .ud-pricing-header h3,
+.ud-single-pricing.active .ud-pricing-header h4 {
+  color: #fff;
+}
+
+.ud-single-pricing.active .ud-pricing-body li {
+  color: #fff;
+}
+
+.ud-single-pricing.first-item::after, .ud-single-pricing.last-item::after {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  z-index: 1;
+}
+
+.ud-single-pricing.first-item::after {
+  background: #212b36;
+  left: -2px;
+  bottom: -2px;
+  border-radius: 0px 55px 0px 8px;
+}
+
+.ud-single-pricing.last-item::after {
+  background: #c98015;
+  top: -2px;
+  right: -2px;
+  border-radius: 0px 8px 0px 55px;
+}
+
+.ud-single-pricing .ud-popular-tag {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #fff;
+  border-radius: 30px;
+  color: #c98015;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.ud-single-pricing .ud-pricing-header h3 {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.ud-single-pricing .ud-pricing-header h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #c98015;
+  margin-bottom: 40px;
+}
+
+.ud-single-pricing .ud-pricing-body {
+  margin-bottom: 40px;
+}
+
+.ud-single-pricing .ud-pricing-body li {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.ud-single-pricing .ud-main-btn {
+  border-radius: 30px;
+  padding: 15px 40px;
+}
+
+.ud-single-pricing .ud-border-btn {
+  border: 1px solid #d4deff;
+  color: #c98015;
+  background: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.ud-single-pricing .ud-border-btn:hover {
+  color: #fff;
+  border-color: #c98015;
+  background: #c98015;
+}
+
+.ud-single-pricing .ud-white-btn {
+  border-color: #212b36;
+  font-weight: 600;
+  background: #fff;
+  color: #c98015;
+  transition: all .3s ease-in-out;
+}
+
+.ud-single-pricing .ud-white-btn:hover {
+  color: #fff;
+  background: #212b36;
+}
+
+.ptitle p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.hosts {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  .ptitle p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.pfooter {
+  padding-top: 40px;
+}
+.pcopy {
+  margin-top: 40px;
 }

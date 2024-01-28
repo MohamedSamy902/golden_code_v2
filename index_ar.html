@@ -49,7 +49,7 @@
 
     <div class="preloader">
         <div class="loader">
-            <div class="ytp-spinner">
+            <!-- <div class="ytp-spinner">
                 <div class="ytp-spinner-container">
                     <div class="ytp-spinner-rotator">
                         <div class="ytp-spinner-left">
@@ -60,7 +60,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <img class="logogc" src="./assets/images/logo4.png" alt="logo">
         </div>
     </div>
 
@@ -75,7 +76,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <h3><i class="lni lni-code goldi"></i>الكود الذهبي<span class="gold">.</spanc></h3>
+                                <img class="logogc" src="./assets/images/logo2.png" alt="logo">
                                 <!-- <img src="assets/images/logo.png" alt="Logo"> -->
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -92,10 +93,13 @@
                                         <a href="#home">الرئيسة</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#about">من نحن</a>
+                                        <a href="./about_ar.html">من نحن</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#services">الخدمات</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#service">الخطط</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#portfolio">أعمالنا</a>
@@ -179,11 +183,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="about-content pt-45">
-                        <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">Duis et metus et massa
-                            tempus lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                            inceptos himenaeos. Maecenas ultricies, orci molestie blandit interdum. ipsum ante
-                            pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci molestie blandit
-                            interdum.</p>
+                        <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">نحن نؤمن بأننا ننجح فقط عندما ينجح عملاؤنا ولهذا السبب لا نتوقف عن التعلم أبدا.</p>
 
                         <div class="about-counter pt-60">
                             <div class="row">
@@ -237,7 +237,7 @@
 
     <!--====== OUR SERVICE PART START ======-->
 
-    <section id="services" class="our-services-area pt-115">
+    <section id="services" class="our-services-area pt-120 pb-115">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-9">
@@ -255,45 +255,57 @@
                             <li class="nav-item">
                                 <a class="active" id="business-tab" data-toggle="tab" href="#business" role="tab"
                                     aria-controls="business" aria-selected="true">
-                                    <i class="lni lni-code-alt"></i> <span>تطوير</span>
+                                    <i class="lni lni-code-alt"></i> <span>التطوير</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="digital-tab" data-toggle="tab" href="#digital" role="tab" aria-controls="digital"
                                     aria-selected="false">
-                                    <i class="lni lni-brush"></i> <span>التصميم الإبداعي</span>
+                                    <i class="lni lni-brush"></i> <span>التصميم الأبداعي</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="hosting-tab" data-toggle="tab" href="#hosting" role="tab" aria-controls="hosting"
+                                    aria-selected="false">
+                                    <i class="lni lni-cloud-check"></i> <span>الاستضافة</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="security-tab" data-toggle="tab" href="#security" role="tab" aria-controls="security"
+                                    aria-selected="false">
+                                    <i class="lni lni-lock"></i> <span>الأمن والحماية</span>
                                 </a>
                             </li>
 
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="market"
                                     aria-selected="false">
-                                    <i class="lni-stats-up"></i> <span>تحليل <br> السوق</span>
+                                    <i class="lni-stats-up"></i> <span>Market <br> Analysis</span>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
-                        <div class="tab-content" id="myTabContent">
+                        <div class="tab-content pt-20" id="myTabContent">
                             <div class="tab-pane fade show active" id="business" role="tabpanel"
                                 aria-labelledby="business-tab">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="our-services-image">
-                                            <img src="assets/images/our-service-1.jpg" alt="service">
+                                            <img src="assets/images/development.svg" alt="service">
                                         </div> <!-- our services image -->
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="our-services-content mt-145">
-                                            <h3 class="services-title">التطوير
-                                                <span>لنمو أعمالك</span>
+                                        <div class="our-services-content mt-50">
+                                            <h3 class="services-title"><b>التطوير</b>
+                                                <span>لنمو أعمالك.</span>
                                             </h3>
                                             <p class="text">أفضل التطبيقات والمواقع المذهلة ذات الجودة العالية والتي يستحقها المستخدمون</p>
 
-                                            <!-- <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="our-services-progress d-flex align-items-center mt-55">
                                                 <div class="circle" id="circles-1"></div>
                                                 <div class="progress-content">
-                                                    <h4 class="progress-title">Consultancy<br> Agency Skill.</h4>
+                                                    <h4 class="progress-title">مهارة <br> وكالة التطوير .</h4>
                                                 </div>
-                                            </div> -->
+                                            </div>
                                         </div> <!-- our services content -->
                                     </div>
                                 </div> <!-- row -->
@@ -303,18 +315,18 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="our-services-image mt-50">
-                                            <img src="assets/images/our-service-1.jpg" alt="service">
+                                            <img src="assets/images/design.svg" alt="service">
                                         </div> <!-- our services image -->
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="our-services-content mt-45">
-                                            <h3 class="services-title">التسويق الرقمي <span>لنمو أعمالك</span></h3>
+                                            <h3 class="services-title"><b>الأبداع</b> <span>لنمو أعمالك.</span></h3>
                                             <p class="text">نحن نقدم أفضل تصميم لواجهة المستخدم/تجربة المستخدم، وتصميمات الحملات المتحركة، وإنتاج الفيديو</p>
 
                                             <div class="our-services-progress d-flex align-items-center mt-55">
                                                 <div class="circle" id="circles-2"></div>
                                                 <div class="progress-content">
-                                                    <h4 class="progress-title">مهارة <br> التسويق الرقمي.</h4>
+                                                    <h4 class="progress-title"><b></b>مهارة <br> الأبداع.</h4>
                                                 </div>
                                             </div>
                                         </div> <!-- our services content -->
@@ -322,26 +334,45 @@
                                 </div> <!-- row -->
                             </div>
 
-                            <div class="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
+                            <div class="tab-pane fade" id="hosting" role="tabpanel" aria-labelledby="hosting-tab">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="our-services-image mt-50">
-                                            <img src="assets/images/our-service-1.jpg" alt="service">
+                                            <img src="assets/images/hosting.svg" alt="service">
                                         </div> <!-- our services image -->
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="our-services-content mt-45">
-                                            <h3 class="services-title">تحليل السوق <span>لنمو أعمالك</span></h3>
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                                                nec est arcu. Maecenas semper tortor. <br> <br> In elementum in risus
-                                                sed commodo. Phasellus nisi ligula, luctus at tempor vitae, placerat at
-                                                ante. Cras sed consequat justo. Curabitur laoreet eu est vel convallis.
-                                            </p>
+                                            <h3 class="services-title"><b>الاستضافة</b> <span>لمشاركة أعمالك</span></h3>
+                                            <p class="text">نحن نقدم خدمة استضافة يمكنها تحسين تحسين محركات البحث لموقعك على الويب. </p>
 
                                             <div class="our-services-progress d-flex align-items-center mt-55">
                                                 <div class="circle" id="circles-3"></div>
                                                 <div class="progress-content">
-                                                    <h4 class="progress-title">تحليل السوق <br> مهارة الوكالة.</h4>
+                                                    <h4 class="progress-title">أفضل<br> الاستضافات.</h4>
+                                                </div>
+                                            </div>
+                                        </div> <!-- our services content -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div>
+
+                            <div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="security-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="our-services-image mt-50">
+                                            <img src="assets/images/security.svg" alt="service">
+                                        </div> <!-- our services image -->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="our-services-content mt-45">
+                                            <h3 class="services-title"><b>الأمن</b> <span>لحماية أعمالك.</span></h3>
+                                            <p class="text">لدينا مهندسون جيدون في مجال الأمن السيبراني ومتخصصون في اختبار اختراق الويب لجعل موقع الويب الخاص بك آمنًا.</p>
+
+                                            <div class="our-services-progress d-flex align-items-center mt-55">
+                                                <div class="circle" id="circles-4"></div>
+                                                <div class="progress-content">
+                                                    <h4 class="progress-title">مهارة <br> اختبار الأختراق.</h4>
                                                 </div>
                                             </div>
                                         </div> <!-- our services content -->
@@ -359,7 +390,7 @@
 
     <!--====== SERVICE PART START ======-->
 
-    <section id="service" class="service-area pt-105">
+    <section id="service" class="service-area pt-105 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8">
@@ -423,7 +454,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="service-btn text-center pt-25 pb-15">
-                            <a class="main-btn main-btn-2" href="#">جميع الخدمات</a>
+                            <a class="main-btn main-btn-2" href="./pricing_ar.html">الأسعار </a>
                         </div> <!-- service btn -->
                     </div>
                 </div> <!-- row -->
@@ -438,13 +469,12 @@
     <section id="portfolio" class="project-masonry-area pt-115">
         <div class="container">
             <div class="row align-items-end">
-                <div class="col-lg-4">
+                <div class="col-lg-12">
                     <div class="section-title pb-20  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                         <h6 class="sub-title">أعمالنا</h6>
-                        <h4 class="title">الأعمال <span>معرض.</span></h4>
                     </div> <!-- section title -->
                 </div>
-                <div class="col-lg-8">
+                <!-- <div class="col-lg-8">
                     <div class="project-menu text-center text-sm-left text-lg-right pb-20">
                         <ul>
                             <li class="active" data-filter="*">الكل</li>
@@ -454,8 +484,8 @@
                             <li data-filter=".laptop">شركات</li>
                             <li data-filter=".product">انتاجي</li>
                         </ul>
-                    </div> <!-- project menu -->
-                </div>
+                    </div>
+                </div> -->
             </div> <!-- row -->
             <div class="row grid">
                 <div class="col-lg-4 col-sm-6 grid-item apps creative laptop">
@@ -799,19 +829,19 @@
                                 <div class="col-md-6">
                                     <div class="contact-form mt-45">
                                         <label>أدخل أسمك</label>
-                                        <input type="text" name="name" placeholder="Full Name">
+                                        <input type="text" name="name" placeholder="الاسم">
                                     </div> <!-- contact-form -->
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contact-form mt-45">
                                         <label>البريد الألكتروني</label>
-                                        <input type="email" name="email" placeholder="Email">
+                                        <input type="email" name="email" placeholder="البريد الالكتروني">
                                     </div> <!-- contact-form -->
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contact-form mt-45">
-                                        <label>رسالتك...</label>
-                                        <textarea name="message" placeholder="Enter your message..."></textarea>
+                                        <label>الرسالة</label>
+                                        <textarea name="message" placeholder="أدخل رسالتك..."></textarea>
                                     </div> <!-- contact-form -->
                                 </div>
                                 <p class="form-message"></p>
@@ -836,68 +866,67 @@
         <div class="container">
             <div class="footer-widget pt-30 pb-70">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 order-sm-1 order-lg-1">
-                        <div class="footer-about pt-40">
+                    <div class="col-lg-4 col-sm-6 order-sm-1 order-lg-1">
+                        <div class="footer-about">
                             <a href="#">
                                 <div class="footer-title">
-                                    <h5 class="title"><i class="lni lni-code goldi"></i>الكود الذهبي<span class="gold">.</span></h5>
+                                    <img class="logogc" src="./assets/images/logo3.png" alt="logo">
                                 </div>
                             </a>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
-                                repudiandae! Totam, nemo sed? Provident.</p>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus</p>
+                            <p>دار البرمجيات المتخصصة في تطوير تطبيقات الهاتف المحمول وتقنيات الويب.</p>
                         </div> <!-- footer about -->
                     </div>
-                    <div class="col-lg-3 col-sm-6 order-sm-3 order-lg-2">
+                    <div class="col-lg-4 col-sm-6 order-sm-3 order-lg-2">
                         <div class="footer-link pt-40">
                             <div class="footer-title">
                                 <h5 class="title">الخدمات</h5>
                             </div>
                             <ul>
-                                <li><a href="#">استشارات الأعمال</a></li>
-                                <li><a href="#">التسويق الرقمي</a></li>
-                                <li><a href="#">تحليل السوق</a></li>
-                                <li><a href="#">تطوير الموقع</a></li>
+                                <li><a href="#">تطوير المواقع</a></li>
+                                <li><a href="#">تصميم المواقع</a></li>
+                                <li><a href="#">الأستضافات</a></li>
+                                <li><a href="#">الأمن والحماية</a></li>
                             </ul>
                         </div> <!-- footer link -->
                     </div>
-                    <div class="col-lg-3 col-sm-6 order-sm-4 order-lg-3">
+                    <!-- <div class="col-lg-3 col-sm-6 order-sm-4 order-lg-3">
                         <div class="footer-link pt-40">
                             <div class="footer-title">
-                                <h5 class="title">معلومات عنا</h5>
+                                <h5 class="title">About Us</h5>
                             </div>
                             <ul>
-                                <li><a href="#">نظرة عامة</a></li>
-                                <li><a href="#">لماذا نحن</a></li>
-                                <li><a href="#">الجوائز والتقديرات</a></li>
-                                <li><a href="#">الفريق</a></li>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Why us</a></li>
+                                <li><a href="#">Awards & Recognitions</a></li>
+                                <li><a href="#">Team</a></li>
                             </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 order-sm-2 order-lg-4">
+                        </div>
+                    </div> -->
+                    <div class="col-lg-4 col-sm-6 order-sm-2 order-lg-4">
                         <div class="footer-contact pt-40">
                             <div class="footer-title">
-                                <h5 class="title">معلومات الأتصال</h5>
+                                <h5 class="title">معلومات الاتصال</h5>
                             </div>
                             <div class="contact pt-10">
                                 <p class="text">حلوان, القاهرة<br>
-                                    حدائق حلوان مصر.</p>
+                                    حدائق-حلوان مصر.</p>
                                 <p class="text">support@goldencode.com</p>
-                                <p class="text">+02 115 010 104</p>
+                                <p class="text">+02 115 0100 104</p>
+                                <!-- <p class="text">+02 112 4762 799 </p> -->
 
-                                <ul class="social mt-40">
+                                <!-- <ul class="social mt-40">
                                     <li><a href="#"><i class="lni-facebook"></i></a></li>
                                     <li><a href="#"><i class="lni-twitter"></i></a></li>
                                     <li><a href="#"><i class="lni-instagram"></i></a></li>
                                     <li><a href="#"><i class="lni-linkedin"></i></a></li>
-                                </ul>
+                                </ul> -->
                             </div> <!-- contact -->
                         </div> <!-- footer contact -->
                     </div>
                 </div> <!-- row -->
             </div> <!-- footer widget -->
-            <div class="footer-copyright text-center">
-                <p class="text">© 2024 أنشئ بواسطة <a href="https://goldencode.com" rel="nofollow">الكود الذهبي</a> جميع الحقوق محفوظة</p>
+            <div class="footer-copyright">
+                <p class="text">© 2024 أنشئ بواسطة <a href="https://goldencoode.com" rel="nofollow"> الكودالذهبي </a>جميع الحقوق محفوظة.</p>
             </div>
         </div> <!-- container -->
     </footer>
